@@ -687,7 +687,7 @@ label {
 }
 /* my media */
 
-@media (min-width: 350px) {
+@media (min-width: 320px) {
     .developerSvg1{
         width: 211px;
         height: 276px;
@@ -1285,7 +1285,7 @@ label {
 }
 /* ENDS MY MEDIA */
 /* START BOSS */
-@media (min-width: 350px) {
+@media (min-width: 320px) {
 
   .fs_headerSection_Height {
     min-height: calc(15em + 45vw);
@@ -1314,7 +1314,7 @@ label {
   }
 } /* large devices */
 /* Other bigger section height */
-@media (min-width: 350px) {
+@media (min-width: 320px) {
   .fs_otherBigSection_Height {
     min-height: 45vw;
   }
@@ -1341,7 +1341,7 @@ label {
 } /* large devices */
 
 /* Move section up on another section */
-@media (min-width: 350px) {
+@media (min-width: 320px) {
   .fs_sectionMoveUp {
     margin-top: -32vw;
   }
@@ -1383,7 +1383,7 @@ label {
 
 /* Responsive text */
 /* responsive headlines  */
-@media (min-width: 350px) {
+@media (min-width: 320px) {
   .fs_resp_HL {
     font-size: 48px;
     font-family: "Poppins", "Roboto", "Open Sans", sans-serif;
@@ -1403,7 +1403,7 @@ label {
 } /* ipad */
 /*  responsive sub headlines  */
 
-@media (min-width: 350px) {
+@media (min-width: 320px) {
   .fs_resp_SL {
     font-size: 28px;
     font-family: "Poppins", "Roboto", "Open Sans", sans-serif;
@@ -1435,7 +1435,7 @@ label {
 } /* ipad */
 
 /*  responsive 'sub sub' headlines  */
-@media (min-width: 350px) {
+@media (min-width: 320px) {
   .fs_resp_Sub_SL {
     font-size: 25px;
     font-family: "Poppins", "Roboto", "Open Sans", sans-serif;
@@ -1455,7 +1455,7 @@ label {
 } /* ipad */
 
 /*  responsive CARD 'bdyText'.*/
-@media (min-width: 350px) {
+@media (min-width: 320px) {
   .fs_HL_bdyTxt {
     font-size: 22px;
     font-family: "Poppins", "Roboto", "Open Sans", sans-serif;
@@ -1475,7 +1475,7 @@ label {
 } /* ipad */
 
 /*  responsive 'bdyText'. Show more on mobile. Standard everywhere */
-@media (min-width: 350px) {
+@media (min-width: 320px) {
   .fs_bdyTxt {
     font-size: 19px;
     font-family: "Poppins", "Roboto", "Open Sans", sans-serif;
@@ -1495,7 +1495,7 @@ label {
 } /* ipad */
 
 /*  responsive CARD 'bdyText'.*/
-@media (min-width: 350px) {
+@media (min-width: 320px) {
   .fs_card_HL {
     font-size: 20px;
     font-family: "PT Sans Narrow", "Roboto", "Open Sans", sans-serif;
@@ -1515,7 +1515,7 @@ label {
 } /* ipad */
 
 /*  responsive CARD 'bdyText'.*/
-@media (min-width: 350px) {
+@media (min-width: 320px) {
   .fs_card_Sub_HL {
     font-size: 22px;
     font-family:"Poppins", "PT Sans Narrow", "Roboto", "Open Sans", sans-serif;
@@ -1535,7 +1535,7 @@ label {
 } /* ipad */
 
 /*  responsive CARD 'bdyText'.*/
-@media (min-width: 350px) {
+@media (min-width: 320px) {
   .fs_card_bdyTxt {
     font-size: 17px;
     font-family: "PT Sans Narrow", "Roboto", "Open Sans", sans-serif;
@@ -1555,7 +1555,7 @@ label {
 } /* ipad */
 
 /* Responsive text */
-@media (min-width: 350px) {
+@media (min-width: 320px) {
   .subHeader-base-font {
     font-size: 12px;
     font-family: "Poppins", "Roboto", "Open Sans", sans-serif;
