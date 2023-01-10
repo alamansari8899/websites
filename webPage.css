@@ -366,6 +366,12 @@ body {
   box-sizing: border-box;
 } */
 /* starts .navbar-brand */
+.navbar-light .nav-item > .nav-link.active  {
+  border: 2px solid black;
+  border-radius: 66px 32px / 28px 59px;
+  font-weight: bold;
+  width: max-content;
+}
 .navbar-brand {
   width: 100px;
 }
@@ -662,12 +668,15 @@ label {
     border-color: rgb(51 60 75)!important;
 }
 .hdShadow-1{
-    text-shadow: 2px 4px #c9ff00;
+  text-shadow: 2px 4px #00b8ff, -2px -4px #c9ff00;
+    letter-spacing: 6px;
+    word-spacing: 2px;
 }
 .fourBorder {
-    border: 8px solid #c9ff00!important;
-    border-radius: 0px!important;
-    box-shadow: 3px 6px 11px #c9ff00;
+  border: 8px solid #c9ff00!important;
+  border-radius: 0px!important;
+  box-shadow: -8px 8px 0px #00b8ff;
+  background: #00b8ff!important;
 }
 .threeBorder {
     border-top: 1px solid black!important;
@@ -1212,10 +1221,10 @@ label {
       overflow: hidden;
       outline: 0;
   }
-  .mediumModalDio{min-width: 800px;
+  /* .mediumModalDio{min-width: 800px;
     width: auto;
-    max-width: 75% !important;}
-  .mediumModal01ChildOne{
+    max-width: 75% !important;} */
+  /* .mediumModal01ChildOne{
     position: fixed;
       top: 8%!important;
       right: 0;
@@ -1225,7 +1234,7 @@ label {
       display: none;
       overflow: hidden;
       outline: 0;
-  }
+  } */
   
   .fs_bigImg{
     min-height: 1371px!important;
