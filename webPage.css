@@ -251,7 +251,8 @@ body {
   /* Actual contents should go in the below boxes. FOR the moment not used due to less time for testing **/
   .fs_contentBoxFull {
     width: 100%;
-    max-height: 100%;
+    /* max-height: 100%; */
+    max-height: auto;
     overflow: hidden;
     margin-top: 80px;
     margin-bottom: 80px;
@@ -368,7 +369,7 @@ body {
 /* starts .navbar-brand */
 .navbar-light .nav-item > .nav-link.active  {
   border: 2px solid black;
-  border-radius: 66px 32px / 28px 59px;
+  /* border-radius: 66px 32px / 28px 59px; */
   font-weight: bold;
   width: max-content;
 }
@@ -689,6 +690,11 @@ label {
     height: 0;
     overflow: hidden;
     padding-bottom: 370.23%;
+}
+.socialImgCardAspetRatioLarge2{
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 100%;
 }
 .fs_scroll {
     max-height: 320px;
@@ -1526,7 +1532,7 @@ label {
 /*  responsive CARD 'bdyText'.*/
 @media (min-width: 320px) {
   .fs_card_Sub_HL {
-    font-size: 22px;
+    font-size: 19px;
     font-family:"Poppins", "PT Sans Narrow", "Roboto", "Open Sans", sans-serif;
   }
 } /* small devices */
