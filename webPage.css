@@ -367,11 +367,11 @@ body {
   box-sizing: border-box;
 } */
 /* starts .navbar-brand */
-.navbar-light .nav-item > .nav-link.active  {
-  border: 2px solid black;
+.navbar-dark .nav-item > .nav-link.active  {
+  border-bottom: 1px solid rgb(255, 255, 255);
   /* border-radius: 66px 32px / 28px 59px; */
-  font-weight: bold;
-  width: max-content;
+  /* font-weight: 600; */
+  /* width: max-content; */
 }
 .navbar-brand {
   width: 100px;
@@ -403,16 +403,16 @@ navbar-hide {
   margin-top: 8%;
   border-radius: 0px !important;
 } */
-.modal-dialog_fs {
+/* .modal-dialog_fs {
   min-width: 82%;
   max-width: 80% !important;
   width: auto;
-}
-.modal-content_fs {
+} */
+/* .modal-content_fs {
   margin: 7% auto !important;
   border: none !important;
   border-radius: 0px !important;
-}
+} */
 
 /*modal close btn*/
 .close {
