@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Poppins:wght@200;400;700&family=Open+Sans:wght@200;400;500;700&family=Roboto:wght@200;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;600&family=Poppins:wght@200;400;700&family=Open+Sans:wght@200;400;500;700&family=Roboto:wght@200;400;500;700;900&display=swap");
 html {
   scroll-behavior: smooth;
 }
@@ -62,6 +62,12 @@ body {
   }
   .fs_BlueBg {
     background-color: darkblue !important;
+  }
+  .fs_NewBg1 {
+    background-color: #eb6e5d!important;
+  }
+  .fs_NewBg2 {
+    background-color:#faf10e!important;
   }
   
   /* ENDS */
@@ -374,7 +380,7 @@ body {
   /* width: max-content; */
 }
 .navbar-brand {
-  width: 100px;
+  /* width: 100px; */
 }
 .navbar-brand img {
   height: 50px;
@@ -1413,7 +1419,7 @@ label {
 @media (min-width: 768px) {
   .fs_resp_HL {
     font-size: 72px;
-    font-family: "Poppins", "Roboto", "Open Sans", sans-serif;
+    font-family:  "Roboto", "Open Sans", sans-serif;
   }
 } /* ipad */
 /*  responsive sub headlines  */
@@ -1553,19 +1559,19 @@ label {
 @media (min-width: 320px) {
   .fs_card_bdyTxt {
     font-size: 17px;
-    font-family: "PT Sans Narrow", "Roboto", "Open Sans", sans-serif;
+    font-family: "Oswald", "Roboto", "Open Sans", sans-serif;
   }
 } /* small devices */
 @media (min-width: 576px) {
   .fs_card_bdyTxt {
     font-size: 17px;
-    font-family: "PT Sans Narrow", "Roboto", "Open Sans", sans-serif;
+    font-family: "Oswald", "Roboto", "Open Sans", sans-serif;
   }
 } /* Less when content in headers are less. ELSE keep more if content in header is more */
 @media (min-width: 768px) {
   .fs_card_bdyTxt {
     font-size: 17px;
-    font-family: "PT Sans Narrow", "Roboto", "Open Sans", sans-serif;
+    font-family: "Oswald", "Roboto", "Open Sans", sans-serif;
   }
 } /* ipad */
 
@@ -1579,22 +1585,42 @@ label {
 @media (min-width: 576px) {
   .subHeader-base-font {
     font-size: 15px;
-    font-family: "Poppins", "Roboto", "Open Sans", sans-serif;
+    font-family: "Oswald", sans-serif;
   }
 }
 /* responseive text ends */
 .fs_Horizontalscroll::-webkit-scrollbar {
-    width: 8px;
-    height: 8px;
+    width: 3px;
+    height: 16px;
+    top: 12px;
     
 }
 .fs_Horizontalscroll::-webkit-scrollbar-thumb {
-    border-radius: 0px;
+    border-radius:11px;
     -webkit-box-shadow: inset 0 0 14px rgb(43 46 6);
     
 }
 .fs_Horizontalscroll::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgb(0 0 0 / 0%);
-    border-radius: 0px;
+    border-radius: 11px;
     
+}
+
+/* new 20 */
+.carouseCaptionBtm{
+  width: 100%!important;
+  left: 0!important;
+  right: 0!important;
+  bottom: 10%!important;
+}
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 50px;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
 }
