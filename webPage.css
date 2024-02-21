@@ -709,6 +709,12 @@ label {
 /* my media */
 
 @media (min-width: 320px) {
+  .smCard1{
+    min-height: 152px!important;
+  }
+  .fs_smCard1Height{
+    min-height: 400px!important;
+  }
     .developerSvg1{
         width: 211px;
         height: 276px;
@@ -1218,6 +1224,12 @@ label {
 }
 /* ENDS */
 @media (min-width: 1200px) {
+  .smCard1{
+    min-height: 250px!important;
+  }
+  .fs_smCard1Height{
+    min-height: 400px!important;
+  }
 
   .smallModalDio{min-width: 160px;
     width: auto;
@@ -1623,4 +1635,12 @@ label {
   padding-bottom: 20px;
   color: #fff;
   text-align: center;
+}
+.smCbtn{
+  border-radius: 22px!important;
+}
+.iconContact {
+width: 30px;
+display: block;
+fill: #000000;
 }
