@@ -400,11 +400,11 @@ navbar-hide {
 
 
 /* MODAL. Can be removed afterwards **/
-.miniModal_Body {
+/* .miniModal_Body {
   min-width: 800px;
-  width: auto; /* Expand width as required */
+  width: auto;             
   max-width: 90% !important;
-}
+} */
 /* .modal-content {
   margin-top: 8%;
   border-radius: 0px !important;
@@ -515,7 +515,7 @@ navbar-hide {
 }
 
 /* my styles */
-.smallModalDio{min-width: 160px;
+/* .smallModalDio{min-width: 160px;
   width: auto;
   max-width: 25% !important;}
 .smallModal01ChildOne{
@@ -528,7 +528,7 @@ navbar-hide {
     display: none;
     overflow: hidden;
     outline: 0;
-}
+} */
 .fs_newBtn{
   border-radius: 0px;
     width: 120px;
@@ -695,7 +695,7 @@ label {
 .socialImgCardAspetRatioLarge {
     height: 0;
     overflow: hidden;
-    padding-bottom: 370.23%;
+    padding-bottom: 511.23%;
 }
 .socialImgCardAspetRatioLarge2{
   height: 0;
@@ -709,6 +709,9 @@ label {
 /* my media */
 
 @media (min-width: 320px) {
+  .resImg{
+    min-height: 192px;
+  }
   .smCard1{
     min-height: 152px!important;
   }
@@ -751,7 +754,7 @@ label {
     padding: 32px!important;
 
   }
-  .smallModalDio{min-width: 160px;
+  /* .smallModalDio{min-width: 160px;
     width: auto;
     max-width: 25% !important;}
   .smallModal01ChildOne{
@@ -764,7 +767,7 @@ label {
       display: none;
       overflow: hidden;
       outline: 0;
-  }
+  } */
 
   .fs_mt50{margin-top: 50px;}
   .fs_onlyMblNegativeMt01{
@@ -884,7 +887,7 @@ label {
     padding: 32px!important;
 
   }
-  .smallModalDio{min-width: 160px;
+  /* .smallModalDio{min-width: 160px;
     width: auto;
     max-width: 25% !important;}
   .smallModal01ChildOne{
@@ -897,7 +900,7 @@ label {
       display: none;
       overflow: hidden;
       outline: 0;
-  }
+  } */
   .fs_LargeImg {
     padding-bottom: 100%!important;/* padding-bottom: 100%;*/ /*  aspect-ratio of 1:1 */
     height: 0!important;
@@ -986,6 +989,9 @@ label {
 }
 /* ENDS */
 @media (min-width: 768px) {
+  .resImg{
+    min-height: 320px;
+  }
     .developerSvg1{
         width: 417px;
         height: 276px;
@@ -1025,7 +1031,7 @@ label {
     padding: 0px!important;
 
   }
-  .smallModalDio{min-width: 160px;
+  /* .smallModalDio{min-width: 160px;
     width: auto;
     max-width: 25% !important;}
   .smallModal01ChildOne{
@@ -1038,7 +1044,7 @@ label {
       display: none;
       overflow: hidden;
       outline: 0;
-  }
+  } */
   
   .fs_roundedImg{
     width: 385px!important;
@@ -1134,7 +1140,7 @@ label {
         left: 116px;
         top: 28px;
     }
-  .smallModalDio{min-width: 160px;
+  /* .smallModalDio{min-width: 160px;
     width: auto;
     max-width: 25% !important;}
   .smallModal01ChildOne{
@@ -1147,7 +1153,7 @@ label {
       display: none;
       overflow: hidden;
       outline: 0;
-  }
+  } */
   .fs_mt50{margin-top:126px;}
   .fs_onlyMblNegativeMt01{
     margin-top: 133px;
@@ -1224,6 +1230,7 @@ label {
 }
 /* ENDS */
 @media (min-width: 1200px) {
+ 
   .smCard1{
     min-height: 250px!important;
   }
@@ -1231,10 +1238,10 @@ label {
     min-height: 400px!important;
   }
 
-  .smallModalDio{min-width: 160px;
+  /* .smallModalDio{min-width: 160px;
     width: auto;
-    max-width: 25% !important;}
-  .smallModal01ChildOne{
+    max-width: 25% !important;} */
+  /* .smallModal01ChildOne{
     position: fixed;
       top: 8%!important;
       right: 0;
@@ -1244,7 +1251,7 @@ label {
       display: none;
       overflow: hidden;
       outline: 0;
-  }
+  } */
   /* .mediumModalDio{min-width: 800px;
     width: auto;
     max-width: 75% !important;} */
@@ -1439,7 +1446,7 @@ label {
 @media (min-width: 320px) {
   .fs_resp_SL {
     font-size: 28px;
-    font-family: "Poppins", "Roboto", "Open Sans", sans-serif;
+    font-family: "Oswald", "Roboto", "Open Sans", sans-serif;
   }
   .fs_productHL{
     font-size: 19px;
@@ -1449,7 +1456,7 @@ label {
 @media (min-width: 576px) {
   .fs_resp_SL {
     font-size: 40px;
-    font-family: "Poppins", "Roboto", "Open Sans", sans-serif;
+    font-family: "Oswald", "Roboto", "Open Sans", sans-serif;
   }
   .fs_productHL{
     font-size: 26px;
@@ -1459,7 +1466,7 @@ label {
 @media (min-width: 768px) {
   .fs_resp_SL {
     font-size: 42px;
-    font-family: "Poppins", "Roboto", "Open Sans", sans-serif;
+    font-family: "Oswald", "Roboto", "Open Sans", sans-serif;
   }
   .fs_productHL{
     font-size: 36px;
@@ -1551,19 +1558,19 @@ label {
 @media (min-width: 320px) {
   .fs_card_Sub_HL {
     font-size: 19px;
-    font-family:"Poppins", "PT Sans Narrow", "Roboto", "Open Sans", sans-serif;
+    font-family:"Roboto", "Open Sans", sans-serif;
   }
 } /* small devices */
 @media (min-width: 576px) {
   .fs_card_Sub_HL {
     font-size: 22px;
-    font-family:"Poppins", "PT Sans Narrow", "Roboto", "Open Sans", sans-serif;
+    font-family: "Roboto", "Open Sans", sans-serif;
   }
 } /* Less when content in headers are less. ELSE keep more if content in header is more */
 @media (min-width: 768px) {
   .fs_card_Sub_HL {
     font-size: 26px;
-    font-family:"Poppins", "PT Sans Narrow", "Roboto", "Open Sans", sans-serif;
+    font-family:"Roboto", "Open Sans", sans-serif;
   }
 } /* ipad */
 
@@ -1571,19 +1578,19 @@ label {
 @media (min-width: 320px) {
   .fs_card_bdyTxt {
     font-size: 17px;
-    font-family: "Oswald", "Roboto", "Open Sans", sans-serif;
+    font-family:  "Roboto", "Open Sans", sans-serif;
   }
 } /* small devices */
 @media (min-width: 576px) {
   .fs_card_bdyTxt {
     font-size: 17px;
-    font-family: "Oswald", "Roboto", "Open Sans", sans-serif;
+    font-family:  "Roboto", "Open Sans", sans-serif;
   }
 } /* Less when content in headers are less. ELSE keep more if content in header is more */
 @media (min-width: 768px) {
   .fs_card_bdyTxt {
     font-size: 17px;
-    font-family: "Oswald", "Roboto", "Open Sans", sans-serif;
+    font-family:"Roboto", "Open Sans", sans-serif;
   }
 } /* ipad */
 
@@ -1643,4 +1650,19 @@ label {
 width: 30px;
 display: block;
 fill: #000000;
+}
+/* .animate__animated.animate__heartBeat {
+  --animate-duration: 50s;
+} */
+/* .modal-fade{
+  transition-duration: 1000s!important;
+} */
+.carouselImg{
+  min-height: 340px;
+}
+.borderR00{
+  border-radius: 32px!important;
+}
+.mTopImg{
+  margin-top: 43px;
 }
