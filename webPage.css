@@ -67,7 +67,7 @@ body {
     background-color: #eb6e5d!important;
   }
   .fs_NewBg2 {
-    background-color:#faf10e!important;
+    background-color:#f798ff !important
   }
   
   /* ENDS */
@@ -1714,4 +1714,17 @@ fill: #000000;
     font-weight: 200;
     cursor: pointer;
     text-transform: uppercase;
+}
+
+.pattern1 {
+  --s: 200px; /* control the size */
+  --c1: #1d1d1d;
+  --c2: #4e4f51;
+  --c3: #3c3c3c;
+  
+  background:
+    repeating-conic-gradient(from 30deg,#0000 0 120deg,var(--c3) 0 180deg) 
+     calc(.5*var(--s)) calc(.5*var(--s)*0.577),
+    repeating-conic-gradient(from 30deg,var(--c1) 0 60deg,var(--c2) 0 120deg,var(--c3) 0 180deg);
+  background-size: var(--s) calc(var(--s)*0.577);
 }
