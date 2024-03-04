@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Oswald:wght@200;400;600&family=Poppins:wght@200;400;700&family=Open+Sans:wght@200;400;500;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Ubuntu:wght@300;400;700&family=Oswald:wght@200;400;600&family=Poppins:wght@200;400;700&family=Open+Sans:wght@200;400;500;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 html {
   scroll-behavior: smooth;
 }
@@ -67,7 +67,7 @@ body {
     background-color: #eb6e5d!important;
   }
   .fs_NewBg2 {
-    background-color:#f798ff24!important
+    background-color:#f798ff !important
   }
   
   /* ENDS */
@@ -1554,18 +1554,33 @@ label {
 
 /*  responsive 'bdyText'. Show more on mobile. Standard everywhere */
 @media (min-width: 320px) {
+  .svgWidth{
+    width: 20px;
+    fill: #000000;
+  }
   .fs_bdyTxt {
     font-size: 19px;
     font-family: "Poppins", "Roboto", "Open Sans", sans-serif;
   }
 } /* small devices */
 @media (min-width: 576px) {
+  .svgWidth{
+    width: 26px;
+    fill: #000000;
+  }
   .fs_bdyTxt {
     font-size: 17px;
     font-family: "Poppins", "Roboto", "Open Sans", sans-serif;
   }
 } /* Less when content in headers are less. ELSE keep more if content in header is more */
 @media (min-width: 768px) {
+  .modal-lg {
+    max-width: 100%;
+}
+  .svgWidth{
+    width: 34px;
+    fill: #000000;
+  }
   .fs_bdyTxt {
     font-size: 17px;
     font-family: "Poppins", "Roboto", "Open Sans", sans-serif;
@@ -1626,6 +1641,13 @@ label {
   }
 } /* Less when content in headers are less. ELSE keep more if content in header is more */
 @media (min-width: 768px) {
+  .fsMainTxt {
+    font-size: 28px;
+    line-height: 2;
+}
+  .fsCmarTop-2 {
+    margin-top: -89px;
+  }
   .fs_card_bdyTxt {
     font-size: 17px;
     font-family:"Roboto", "Open Sans", sans-serif;
@@ -1634,6 +1656,13 @@ label {
 
 /* Responsive text */
 @media (min-width: 320px) {
+  .fsMainTxt {
+    font-size: 22px;
+    line-height: 2;
+}
+  .fsCmarTop-2 {
+    margin-top: -60px;
+  }
   .subHeader-base-font {
     font-size: 12px;
     font-family: "Poppins", "Roboto", "Open Sans", sans-serif;
@@ -1727,4 +1756,214 @@ fill: #000000;
      calc(.5*var(--s)) calc(.5*var(--s)*0.577),
     repeating-conic-gradient(from 30deg,var(--c1) 0 60deg,var(--c2) 0 120deg,var(--c3) 0 180deg);
   background-size: var(--s) calc(var(--s)*0.577);
+}
+.fsCmarTop-1 {
+  margin-top: 49px;
+}
+.navbar-toggler {
+  background: #FFF;
+  BORDER-RADIUS: 0;
+  PADDING: 13PX 22PX;
+}
+.fs99 {
+  z-index: 999;
+}
+.navbar-toggler {
+  /* background: none; */
+  border: none;
+}
+.animate__animated.animate__heartBeat {
+  --animate-duration: 100s;
+}
+/* .fsCpTop-1 {
+  padding-top: 92px;
+} */
+/* NAVBAR */
+.navbar-collapse ul {
+  height: 67vh;
+  /* width: 120vw; */
+}
+
+.navbar-toggler {
+  background: none;
+  border: none;
+}
+
+.navbar-toggler:active,
+.navbar-toggler:focus {
+  outline: 0;
+}
+
+.navbar-toggler .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+  margin: 4px 0 4px 0;
+  transition: all 0.2s;
+}
+
+.navbar-dark .navbar-toggler .icon-bar {
+  background: #000;
+}
+
+.navbar-toggler .icon-bar:nth-of-type(1) {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+
+.navbar-toggler .icon-bar:nth-of-type(2) {
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+.navbar-toggler .icon-bar:nth-of-type(3) {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+
+.navbar-toggler.collapsed .icon-bar:nth-of-type(1) {
+  transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .icon-bar:nth-of-type(2) {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.navbar-toggler.collapsed .icon-bar:nth-of-type(3) {
+  transform: rotate(0);
+}
+.navbar-toggler {
+  background: #FFF;
+  BORDER-RADIUS: 0;
+  PADDING: 13PX 22PX;
+}
+.cta {
+  border: none;
+  background: none;
+}
+
+.cta span {
+  padding-bottom: 7px;
+  letter-spacing: 4px;
+  font-size: 14px;
+  padding-right: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.cta svg {
+  transform: translateX(-8px);
+  transition: all 0.3s ease;
+}
+
+.cta:hover svg {
+  transform: translateX(0);
+}
+
+.cta:active svg {
+  transform: scale(0.9);
+}
+
+.hover-underline-animation {
+  position: relative;
+  color: black;
+  padding-bottom: 20px;
+}
+
+.hover-underline-animation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000000;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.cta:hover .hover-underline-animation:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+
+/* FS utility of space */
+.fTxt{
+  font-size: 32px;
+    background: #ecd3c9;
+    position: relative;
+    margin-top: -70px;
+    margin-bottom: 44px;
+    padding: 0 9px;
+    text-shadow: 3px 3px #ffc107;
+}
+.fsTxtUp{text-transform: uppercase;}
+.fsCmarTop-1{margin-top: 49px;}
+
+.fs99{z-index: 999;}
+.fsCpTop-1{padding-top: 92px;}
+/* This only changes this particular animation duration */
+.animate__animated.animate__heartBeat {
+  --animate-duration: 100s;
+}
+.navbar-brand img {
+  /* height: 50px; */
+  /* put value of image height as your need */
+  float: left;
+  margin-right: 7px;
+}
+.is-hidden {
+  opacity: 0;
+  transition: transform 0.5s, opacity 0.2s;
+}
+navbar-hide {
+  pointer-events: none;
+  opacity: 0;
+ 
+}
+
+.navBarS-1{
+  background: rgb(223 207 213);
+  /* border-radius: 0px 55px 55px 0px; */
+  box-shadow: rgb(0 0 0 / 10%) 0px 0px 16px 4px;
+  min-height: 70px;
+  /* border: 2px solid black; */
+}
+/* MODAL. Can be removed afterwards **/
+.miniModal_Body {
+  min-width: 800px;
+  width: auto; /* Expand width as required */
+  max-width: 90% !important;
+}
+/* .modal-content {
+  margin-top: 8%;
+  border-radius: 0px !important;
+} */
+
+
+/*modal close btn*/
+.close {
+  font-size: 72px !important;
+}
+.Ubuntu{font-family: 'Ubuntu', sans-serif;}
+.Alegreya{font-family: 'Alegreya', serif;}
+.Great-Vibes{font-family: 'Great Vibes', cursive;}
+.Lato{font-family: 'Lato';}
+.Montserrat{font-family: 'Montserrat';}
+.Kristi{font-family: 'Kristi';}
+.Satisfy{font-family: 'Satisfy';}
+.Oswald{font-family: 'Oswald';}
+.Open-Sans{font-family: 'Open Sans';}
+.Poppins{font-family: 'Poppins';}
+.Roboto{font-family: 'Roboto';}
+/* COLORS */
+.secBck-1{background-color: #ed963f;}
+.secBck-2{background-color: #d2a946;}
+.nd2Color{background: yellowgreen;}
+.fsbg-1{
+  background: #b67d8f;
 }
