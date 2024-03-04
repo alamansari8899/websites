@@ -11,7 +11,9 @@
     <!-- <link rel="stylesheet" href="../colorCss/dark.css" type="text/css"> -->
     <!-- <link rel="stylesheet" href="../colorCss/light.css" type="text/css"> -->
     <!-- <link href="../css/spa-7.css" rel="stylesheet" type="text/css"> -->
-    <script src="https://unpkg.com/ionicons@4.2.2/dist/ionicons.js"></script><script src="https://unpkg.com/ionicons@4.2.2/dist/ionicons/ionicons.xcgugpyt.js" data-resources-url="https://unpkg.com/ionicons@4.2.2/dist/ionicons/" data-namespace="ionicons"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="https://unpkg.com/ionicons@4.2.2/dist/ionicons.js"></script>
+        <script src="https://unpkg.com/ionicons@4.2.2/dist/ionicons/ionicons.xcgugpyt.js" data-resources-url="https://unpkg.com/ionicons@4.2.2/dist/ionicons/" data-namespace="ionicons"></script>
     <link href="/open-iconic/font/css/open-iconic-bootstrap.css" rel="stylesheet">
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Section Meta end -->
@@ -19,6 +21,31 @@
 <!----( FASHION )(SMALL BUSSINESS) (TBD)--->
 <body class="text_intact" style="">
   <!-- SECTION HEADER start ----->
+    <section id="header" class="container-fluid px-0 bg-transparent fs_relative ">
+    <!-- <div class="collapse navbar-collapse " id="navbarNav" style="background: black;position: absolute;width: 100%;height: 100%;"></div> -->
+    <nav class="navbar col-md-9 col-10 mx-auto navbar-dark fixed-top  p-0">
+     
+     
+      <button class="navbar-toggler  mr-2 fsCmarTop-1 fs99 collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" >
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse animate__animated animate__heartBeat fsbg-1 fsCmarTop-2 fsCpTop-1 " id="navbarNav">
+        <ul class="navbar-nav a-center">
+          <li class="nav-item ">
+            <a class="nav-link" href="#design">MY WORK</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#work"  data-toggle="modal" data-target="#smallModal02">ABOUT ME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact"  data-toggle="modal" data-target="#contactToOrder">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </nav>   
+  </section>
 <section id="header" class="container-fluid px-0 fs_BlackBg fs_relative  ">
   <div class="abImageHeader d-none">
        <!-- CARD STARTS -->  
@@ -151,30 +178,6 @@
   <!--fs_container-->
   <div class="fs_container ">
   <!--top offers ends-->
-  <nav class="navbar navbar-expand-lg navbar-dark fs_BlackBg fixed-top py-0 px-md-5">
-    <a class="navbar-brand " href="#">
-      <span class="fontW2 fs_HL_bdyTxt">
-        Freelancer
-      </span>
-    </a> 
-    <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto fs_card_bdyTxt fontW4">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home</a>
-        </li>
-       <li class="nav-item ">
-          <a class="nav-link " data-toggle="modal" data-target="#smallModal02" style="cursor: pointer;" >About me</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" data-toggle="modal" data-target="#contactToOrder" style="cursor: pointer;">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
  <div class="row no-gutters my-5">
   <div class="col-8 col-md-3  ml-auto order-md-last order-1">
     <div class="bd-example">
@@ -3220,7 +3223,7 @@
   </div>
   <!-- SMALL MODAL ENDS -->
   <!-- MEDIUM MODAL START -->
- <div class="modal //mediumModal01ChildOne fadeIn" id="smallModal02" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" style="display: none;" aria-hidden="true">
+ <div class="modal fadeIn" id="smallModal02" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" style="display: none;" aria-hidden="true">
   <div class="modal-dialog  modal-lg" role="document">
   <div class="modal-content fsC_none_brdr">
     <div class="modal-header p-2">
@@ -3235,24 +3238,80 @@
           <div class="card fsC_none_brdr ">
              <!-- HL BLOCK STARTS -->
              <div class=" fs_GradientThemeBg fs_LightFont mb-4 p-4 card-block fs_resp_SL  fs_lineHeight fs_GlassBg">
-              <!-- HL STARTS -->  
-              <span class="d-block fontW6">Hi, I'm Alam Ansari.
-                </span>
-                <span class="fontW2">I'm a UX Designer.</span>
-              <!-- HL ENDS -->
+              <div class="card-block  Ubuntu mt-2" style="text-shadow: 1px 2px #ffc107;">
+                <span class="d-block fontW6">
+                  Now, i am work as freelancer.
+                  </span>
+              </div>
             </div>
             <!-- HL BLOCK ENDS -->
             <!-- BODY GTEXT COL STARTS -->
           <div class="card card-body mb-5 border-0 a-left bg-transparent fs_DarkFont fsC_none_brdr p-0">
-            <!-- BODY TEXT BLOCK STARTS -->
-            <div class="card-block fontW4 fs_card_Sub_HL"> 
-              <!-- BODY TEXT STARTS -->  
-              <span class="d-block" fs_data="cTxt">
-                I create human-centered solutions to complex problems.
+           
+            <!-- START CARD-BODY -->
+            <div class="card-body fontW4 fsC_none_brdr p-0 a-left" style="min-height: 60px;">
+              <div class="card-block fsMainTxt Ubuntu ">
+              <span>
+             I am a UX/UI DESIGNER with nearly 5.5 years experience. I understand complete life cycle from requirements to UX/UI solution design. Good understanding about UX/UI design solutions. Good with mobile first, content first and responsive web designs.
               </span>
-              <!-- BODY TEXT ENDS--> 
+         </div>
             </div>
-            <!-- BODY TEXT BLOCK ENDS-->
+      <!-- ENDS CARD-BODY -->
+           <div class="card-body fontW4 fsC_none_brdr p-0 a-left  mt-5" style="min-height: 10px;">
+      <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
+        <button type="button" class="btn btn-warning">
+          <a href="https://www.linkedin.com/in/alam-ansari-b0419b203/">
+          <div class="fs_relative svgWidth">
+            <svg width="100%" height="100%" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 382 382" style="enable-background:new 0 0 382 382;" xml:space="preserve">
+              <path style="fill:#0077B7;" d="M347.445,0H34.555C15.471,0,0,15.471,0,34.555v312.889C0,366.529,15.471,382,34.555,382h312.889  C366.529,382,382,366.529,382,347.444V34.555C382,15.471,366.529,0,347.445,0z M118.207,329.844c0,5.554-4.502,10.056-10.056,10.056  H65.345c-5.554,0-10.056-4.502-10.056-10.056V150.403c0-5.554,4.502-10.056,10.056-10.056h42.806  c5.554,0,10.056,4.502,10.056,10.056V329.844z M86.748,123.432c-22.459,0-40.666-18.207-40.666-40.666S64.289,42.1,86.748,42.1  s40.666,18.207,40.666,40.666S109.208,123.432,86.748,123.432z M341.91,330.654c0,5.106-4.14,9.246-9.246,9.246H286.73  c-5.106,0-9.246-4.14-9.246-9.246v-84.168c0-12.556,3.683-55.021-32.813-55.021c-28.309,0-34.051,29.066-35.204,42.11v97.079  c0,5.106-4.139,9.246-9.246,9.246h-44.426c-5.106,0-9.246-4.14-9.246-9.246V149.593c0-5.106,4.14-9.246,9.246-9.246h44.426  c5.106,0,9.246,4.14,9.246,9.246v15.655c10.497-15.753,26.097-27.912,59.312-27.912c73.552,0,73.131,68.716,73.131,106.472  L341.91,330.654L341.91,330.654z"></path>
+              <g>
+              </g>
+              <g>
+              </g>
+              <g>
+              </g>
+              <g>
+              </g>
+              <g>
+              </g>
+              <g>
+              </g>
+              <g>
+              </g>
+              <g>
+              </g>
+              <g>
+              </g>
+              <g>
+              </g>
+              <g>
+              </g>
+              <g>
+              </g>
+              <g>
+              </g>
+              <g>
+              </g>
+              <g>
+              </g>
+            </svg>
+           </div>
+          </a>
+        </button>
+        <button type="button" class="btn btn-warning">
+          <a href="https://www.behance.net/ansarialam1">
+          <div class="fs_relative svgWidth" style="width: 34px;">
+            <svg width="100%" height="100%" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="behance"><rect width="24" height="24" opacity="0"></rect><path d="M14.76 11.19a1 1 0 0 0-1 1.09h2.06a1 1 0 0 0-1.06-1.09z"></path><path d="M9.49 12.3H8.26v1.94h1c1 0 1.44-.33 1.44-1s-.46-.94-1.21-.94z"></path><path d="M10.36 10.52c0-.53-.35-.85-.95-.85H8.26v1.74h.85c.89 0 1.25-.32 1.25-.89z"></path><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zM9.7 15.2H7V8.7h2.7c1.17 0 1.94.61 1.94 1.6a1.4 1.4 0 0 1-1.12 1.43A1.52 1.52 0 0 1 12 13.37c0 1.16-1 1.83-2.3 1.83zm3.55-6h3v.5h-3zM17 13.05h-3.3v.14a1.07 1.07 0 0 0 1.09 1.19.9.9 0 0 0 1-.63H17a2 2 0 0 1-2.17 1.55 2.15 2.15 0 0 1-2.36-2.3v-.44a2.11 2.11 0 0 1 2.28-2.25A2.12 2.12 0 0 1 17 12.58z"></path></g></g></svg>
+          </div>
+          </a>
+        </button>
+      </div>
+      <!-- <div class="card-block fs_resp_Cnt Ubuntu mt-2" style="text-shadow: 1px 2px #ffc107;">
+        <span class="d-block fontW6">
+          WEBSITE CURRENTLY UNDER CONSTRUCTION
+          </span>
+      </div> -->
+      </div>
           </div>
           <!-- BODY TEXT COL ENDS -->
            <!-- BODY GTEXT COL STARTS -->
@@ -3266,34 +3325,38 @@
               <!-- BODY TEXT ENDS--> 
             </div>
             <!-- BODY TEXT BLOCK ENDS-->
-            <div class="card-block fontW4 fs_card_Sub_HL mb-3"> 
+            
+            <div class="card-block fontW6 fs_card_bdyTxt mb-3"> 
               <!-- BODY TEXT STARTS -->  
               <span class="d-block" fs_data="cTxt">
-                Flexistrategy.com
+                UX Designer @ Flexistrategy.com
               </span>
               <span class="d-block" fs_data="cTxt">
-                2018 to 2023
+                March , 2018 to April 2023
               </span>
               <!-- BODY TEXT ENDS--> 
             </div>
             <!-- BODY TEXT BLOCK ENDS-->
-            <!-- BODY TEXT BLOCK STARTS -->
             <div class="card-block fontW4 fs_card_bdyTxt mb-5"> 
               <!-- BODY TEXT STARTS -->  
               <span class="d-block" fs_data="cTxt">
-                As a member of the Quicks.io, I worked almost exclusively on the suite of property management tools they offered called Rental Manager. As the sole UX designer in my product pod, I collaborated with product managers to deliver design solutions that improved general usability, while prioritizing business value, and keeping development effort at a minimum.
+                This is ‘No Code/Low code’ product development at start-up. company make WEBSITES and digital asset for personal, businesses and corporate.
+              </span>
+              <span class="d-block" fs_data="cTxt">
+                Work closely with founder (chief designer and developer) and Makes digital assets, websites designing.
+I am work as a UX designer.
+
               </span>
               <!-- BODY TEXT ENDS--> 
             </div>
-            <!-- BODY TEXT BLOCK ENDS-->
              <!-- BODY TEXT BLOCK ENDS-->
-             <div class="card-block fontW4 fs_card_Sub_HL mb-3"> 
+             <div class="card-block fontW6 fs_card_bdyTxt mb-3"> 
               <!-- BODY TEXT STARTS -->  
               <span class="d-block" fs_data="cTxt">
-                Datamato technology
+                UX/UI Designer @ Datamato technology
               </span>
               <span class="d-block" fs_data="cTxt">
-                2023
+                April, 2023 to August 2023
               </span>
               <!-- BODY TEXT ENDS--> 
             </div>
@@ -3302,7 +3365,7 @@
             <div class="card-block fontW4 fs_card_bdyTxt"> 
               <!-- BODY TEXT STARTS -->  
               <span class="d-block" fs_data="cTxt">
-                Created projects and completed assignments to explore the full range of concepts in the design process, form research and testing, to design thinking and rapid prototyping.
+                Datamato is a one-stop solution for key technology products and latest technology services. They are DevOps consulting organization who provides complete digital transformation using DevOps tools and techniques etc.
               </span>
               <!-- BODY TEXT ENDS--> 
             </div>
@@ -3333,56 +3396,32 @@
   <!-- https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js -->
   <!-- <script defer="" src="../js/jquery.validate.min.js"></script> -->
   <script>
-  $(document).ready(function () {
-    var previousScroll = 0;
-    $(window).scroll(function () {
-        var currentScroll = $(this).scrollTop();
-        if (currentScroll < 50) {
-            showTopNav();
-        } else if (currentScroll > 0 && currentScroll < $(document).height() - $(window).height()) {
-            if (currentScroll > previousScroll) {
-                hideNav();
-            } else {
-                showNav();
-            }
-            previousScroll = currentScroll;
-        }
-    });
+    $(document).ready(function () {
+      var previousScroll = 0;
+      $(window).scroll(function () {
+          var currentScroll = $(this).scrollTop();
+          if (currentScroll < 50) {
+              showTopNav();
+          } else if (currentScroll > 0 && currentScroll < $(document).height() - $(window).height()) {
+              if (currentScroll > previousScroll) {
+                  hideNav();
+              } else {
+                  showNav();
+              }
+              previousScroll = currentScroll;
+          }
+      });
   
-    function hideNav() {
-        $(".navbar").removeClass("is-visible").addClass("is-hidden");
-      //   $(".navbar").removeClass("fs_LightBg").addClass("bg-transparent");
-    }
+      function hideNav() {
+          $(".navbar").removeClass("is-visible").addClass("is-hidden");
+        //   $(".navbar").removeClass("fs_LightBg").addClass("bg-transparent");
+      }
   
-    function showNav() {
-        $(".navbar").removeClass("is-hidden").addClass("is-visible").addClass("scrolling");
-      //   $(".navbar").removeClass("bg-transparent").addClass("fs_LightBg").addClass("scrolling");
-    }
+      function showNav() {
+          $(".navbar").removeClass("is-hidden").addClass("is-visible").addClass("scrolling");
+        //   $(".navbar").removeClass("bg-transparent").addClass("fs_LightBg").addClass("scrolling");
+      }
   });
-  </script>
-  <script>
-    $('.carousel-v .vertical .item-v').each(function(){
-  var next = $(this).next();
-  if (!next.length) {
-  next = $(this).siblings(':first');
-  }
-  next.children(':first-child').clone().appendTo($(this));
-  
-  for (var i=1;i<2;i++) {
-  next=next.next();
-  if (!next.length) {
-      next = $(this).siblings(':first');
-    }
-  
-  next.children(':first-child').clone().appendTo($(this));
-  }
-  });
-  </script>
-  <script>
-  $('.navbar-nav .nav-link').click(function(){
-      $('.navbar-nav .nav-link').removeClass('active');
-      $(this).addClass('active');
-  })
   </script>
   
   
