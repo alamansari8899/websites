@@ -1450,9 +1450,13 @@ label {
 /*  responsive sub headlines  */
 
 @media (min-width: 320px) {
+  .fs_smallNewHL2{
+    font-size: 22px;
+    font-family: "Roboto", "Open Sans", sans-serif;
+  }
   .newSL{
 
-    font-size: 68px;
+    font-size: 38px;
     font-family: "Orbitron", "Oswald", "Roboto", "Open Sans", sans-serif;
     text-transform: uppercase;
     /* opacity: .4; */
@@ -1493,6 +1497,10 @@ label {
   }
 } /* Less when content in headers are less. ELSE keep more if content in header is more */
 @media (min-width: 768px) {
+  .fs_smallNewHL2{
+    font-size: 26px;
+    font-family:"Roboto", "Open Sans", sans-serif;
+  }
   .newSL{
 
     font-size: 87px;
