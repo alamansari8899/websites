@@ -16,7 +16,12 @@ body {
   .fs_LightThemeFont {
     color: #9fc4d9 !important;
   }
-  
+ .Orbitron{
+  font-family: "Orbitron", sans-serif;
+ } 
+ .Oswald{
+  font-family: "Oswald",  sans-serif;
+ } 
   /* DARK FONT COLORS */
   .fs_BlackFont {
     color: #000 !important;
@@ -1973,5 +1978,6 @@ navbar-hide {
 .secBck-2{background-color: #d2a946;}
 .nd2Color{background: yellowgreen;}
 .fsbg-1{
-  background: #b67d8f;
+  background: #b67d8fd9;
+  backdrop-filter: blur(6px);
 }
