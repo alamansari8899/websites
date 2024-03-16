@@ -712,7 +712,71 @@ label {
     overflow-y: auto;
 }
 /* my media */
+/* 280 media */
+@media (min-width: 280px) {
+  .smCard1 {
+    min-height: 126px !important;
+    min-width: 88px !important;
+}
+.smCbtn {
+  border-radius: 0 !important;
+  color: #fff !important;
+  background-color: #050505 !important;
+  border-color: #1502ce !important;
+  width: 88px !important;
+  padding: 2px;
+  font-size: 12px;
+  font-family: 'Orbitron';
+}
+.myBtn{
+  width: max-content;
+    border: 1px solid #1502ce;
+    background: transparent;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: 200;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.fs_smCard1Height{
+  min-height: 400px!important;
+}
+.carouselImg {
+  min-height: 118px;
+}
+.newSL{
+  font-size: 28px;
+  font-family: "Orbitron", "Oswald", "Roboto", "Open Sans", sans-serif;
+  text-transform: uppercase;
+  /* opacity: .4; */
+  text-shadow: 0px 0px 0px #fff;
+  line-height: 38px;
+}
+.fs_newHL{
+  font-size: 22px;
+    font-family: "Oswald", "Roboto", "Open Sans", sans-serif;
+    line-height: 25px;
+}
+.fs_resp_SL {
+  font-size: 32px;
+  font-family: "Orbitron", "Oswald", "Roboto", "Open Sans", sans-serif;
+}
 
+.fs_smallNewHL2 {
+  font-size: 20px;
+  font-family: "Roboto", "Open Sans", sans-serif;
+}
+.fs_smallNewHL {
+  font-size: 14px;
+  font-family: "Roboto", "Open Sans", sans-serif;
+  line-height: 16px;
+  text-decoration: underline;
+  letter-spacing: 1px;
+  font-style: italic;
+  background: #1502ce;
+}
+}
 @media (min-width: 320px) {
   .carouselImg{
     min-height: 138px;
@@ -720,9 +784,7 @@ label {
   .resImg{
     min-height: 192px;
   }
-  .smCard1{
-    min-height: 152px!important;
-  }
+
   .fs_smCard1Height{
     min-height: 400px!important;
   }
@@ -997,6 +1059,28 @@ label {
 }
 /* ENDS */
 @media (min-width: 768px) {
+  .smCard1{
+    min-height: 179px !important;
+    min-width: 119px !important;
+  }
+  .smCbtn{
+    border-radius: 0!important;
+    color: #fff!important;
+      background-color: #050505!important;
+      border-color: #1502ce!important;
+      width: 119px!important;
+  }
+  .myBtn{
+    width: max-content;
+      border: 1px solid #1502ce;
+      background: transparent;
+      color: #fff;
+      font-size: 22px;
+      font-family: 'Roboto';
+      font-weight: 200;
+      cursor: pointer;
+      text-transform: uppercase;
+  }
   .carouselImg{
     min-height: 465px;
   }
@@ -1242,9 +1326,7 @@ label {
 /* ENDS */
 @media (min-width: 1200px) {
  
-  .smCard1{
-    min-height: 250px!important;
-  }
+  
   .fs_smCard1Height{
     min-height: 400px!important;
   }
@@ -1461,19 +1543,19 @@ label {
   }
   .newSL{
 
-    font-size: 38px;
+    font-size: 32px;
     font-family: "Orbitron", "Oswald", "Roboto", "Open Sans", sans-serif;
     text-transform: uppercase;
     /* opacity: .4; */
     text-shadow: 0px 0px 0px #fff;
-    line-height: 53px;
+    line-height: 45px;
   }
   .fs_resp_SL {
-    font-size: 48px;
+    font-size: 32px;
     font-family: "Orbitron","Oswald", "Roboto", "Open Sans", sans-serif;
   }
   .fs_newHL{
-    font-size: 36px;
+    font-size: 32px;
     font-family: "Oswald", "Roboto", "Open Sans", sans-serif;
     line-height: 33px;
   }
@@ -1508,7 +1590,7 @@ label {
   }
   .newSL{
 
-    font-size: 87px;
+    font-size: 72px;
     font-family: "Orbitron", "Oswald", "Roboto", "Open Sans", sans-serif;
     text-transform: uppercase;
     /* opacity: .4; */
@@ -1689,19 +1771,19 @@ label {
 }
 /* responseive text ends */
 .fs_Horizontalscroll::-webkit-scrollbar {
-    width: 3px;
-    height: 16px;
+  width: 0px;
+  height: 26px;
+
     top: 12px;
     
 }
 .fs_Horizontalscroll::-webkit-scrollbar-thumb {
-    border-radius:11px;
-    -webkit-box-shadow: inset 0 0 14px rgb(43 46 6);
+  border: 1px solid #fff;
+  background-color: #050505;
     
 }
 .fs_Horizontalscroll::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgb(0 0 0 / 0%);
-    border-radius: 11px;
+  background-color: #1502ce;
     
 }
 
@@ -1723,9 +1805,7 @@ label {
   color: #fff;
   text-align: center;
 }
-.smCbtn{
-  border-radius: 22px!important;
-}
+
 .iconContact {
 width: 30px;
 display: block;
@@ -1746,17 +1826,7 @@ fill: #000000;
 .mTopImg{
   margin-top: 43px;
 }
-.myBtn{
-  width: max-content;
-    border: 1px solid #fff;
-    background: transparent;
-    color: #fff;
-    font-size: 22px;
-    font-family: 'Roboto';
-    font-weight: 200;
-    cursor: pointer;
-    text-transform: uppercase;
-}
+
 
 .pattern1 {
   --s: 200px; /* control the size */
@@ -1774,7 +1844,7 @@ fill: #000000;
   margin-top: 49px;
 }
 .navbar-toggler {
-  background: #FFF;
+  background: #1502ce!important;
   BORDER-RADIUS: 0;
   PADDING: 13PX 22PX;
 }
@@ -1817,7 +1887,7 @@ fill: #000000;
 }
 
 .navbar-dark .navbar-toggler .icon-bar {
-  background: #000;
+  background: #fff;
 }
 
 .navbar-toggler .icon-bar:nth-of-type(1) {
@@ -1978,6 +2048,6 @@ navbar-hide {
 .secBck-2{background-color: #d2a946;}
 .nd2Color{background: yellowgreen;}
 .fsbg-1{
-  background: #b67d8fd9;
+  background: #1502ce94;
   backdrop-filter: blur(6px);
 }
